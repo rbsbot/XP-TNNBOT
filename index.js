@@ -1,17 +1,17 @@
 /*
 * "Jangan modal nama doang bro!!!"
-* (Scriptnya XP-TN)
+* (Scriptnya RS-BT)
 * jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!!
 * reupload izin anjg gua gua cape buat nya!!
 * ini script pribadi gua!!
 */
-const XPTN = '👾XP-TN👾'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/mragung23'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+6289655478810'; // Nomor whatsapplu cok
+const RSBT = '👾RIBASBOT👾'; // Nama Bot Whatsapp
+const instagram = 'https://instagram.com/rbs.420?igshid=1edbmclj7n9rl'; // Nama Instagramlu cok
+const nomer = 'https://Wa.me/+6282193030283'; // Nomor whatsapplu cok
 const aktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const groupwa = 'https://chat.whatsapp.com/GDdd0I3WlF5LnMVifmS7rN'; // OFFICIAL GRUP LU 1
-const youtube = 'https://www.youtube.com/channel/UCMiQsqzWvj-zKxNlFlG_Wiw'; // OFFICIAL GRUP LU 2
+const groupwa = 'https://chat.whatsapp.com/Cn1l7gm2GXK1ko9wh4qJQU'; // OFFICIAL GRUP LU 1
+const youtube = 'https://youtube.com/channel/UCVoeo63MfuTBPXlbj-ldX3Q'; // OFFICIAL GRUP LU 2
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -37,9 +37,9 @@ const sellernomor = require("./lib/sellernomor.js");
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:XP Ganss\n' // full name
-            + 'ORG:Owner XPTN Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6289655478810:+62 896-5547-8810\n' // WhatsApp ID + phone number
+            + 'FN:Rbs Ganss\n' // full name
+            + 'ORG:Owner RSBT Bot;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6282193030283:+62 821-9303-0283\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 //
 const
@@ -161,10 +161,10 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner XP-TN wa.me/+6289655478810' ,MessageType.text);
+conn.sendMessage(id, 'Owner RS-BT wa.me/+6282193030283' ,MessageType.text);
 }
 else if (text == 'Agung'){
-conn.sendMessage(id, 'Aku BOT nya XP-TN' ,MessageType.text);
+conn.sendMessage(id, 'Aku BOT nya RS-BT' ,MessageType.text);
 }
 else if (text == 'wenda'){
 conn.sendMessage(id, 'pacar owner ihh' ,MessageType.text);
@@ -233,10 +233,10 @@ else if (text == '.frendsowner'){
 conn.sendMessage(id, 'kawan1 iskandar wa.me/+60136670107' ,MessageType.text);
 }
 else if (text == '.coowner'){
-conn.sendMessage(id, 'kawan2 testing script wa.me/+6282232931618' ,MessageType.text);
+conn.sendMessage(id, 'kawan2 testing script wa.me/+62895810036080' ,MessageType.text);
 }
 else if (text == '.groupbot'){
-conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/GDdd0I3WlF5LnMVifmS7rN' ,MessageType.text);
+conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/Cn1l7gm2GXK1ko9wh4qJQU' ,MessageType.text);
 }
 else if (text == '.tools1'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools1!!!* ' ,MessageType.text);
@@ -1412,28 +1412,28 @@ else if (text == '.foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '.help'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@mragung23' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@rbs.420' ,MessageType.text);
 }
 else if (text == '.tools1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@mragung23' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@rbs.420' ,MessageType.text);
 }
 else if (text == '.menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@mragung23' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@rbs.420' ,MessageType.text);
 }
 else if (text == '.tool2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@mragung23' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@rbs.420' ,MessageType.text);
 }
 else if (text == '.tools3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@mragung23' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@rbs.420' ,MessageType.text);
 }
 else if (text == '.tools4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@mragung23' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@rbs.420' ,MessageType.text);
 }
 else if (text == '.tools5'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@mragung23' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@rbs.420' ,MessageType.text);
 }
 else if (text == '.tools6'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@mragung23' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾RIBASBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@rbs.420' ,MessageType.text);
 }
 if (messageType == 'imageMessage')
    {

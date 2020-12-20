@@ -8,7 +8,7 @@
 */
 const RSBT = '👾RIBASBOT👾'; // Nama Bot Whatsapp
 const instagram = 'https://instagram.com/rbs.420'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+6289655478810'; // Nomor whatsapplu cok
+const nomer = 'https://Wa.me/+6282193030283'; // Nomor whatsapplu cok
 const aktif = 'Tergantung jaringan'; // Kapan bot lu aktif
 const groupwa = 'https://chat.whatsapp.com/Cn1l7gm2GXK1ko9wh4qJQU'; // OFFICIAL GRUP LU 1
 const youtube = 'https://youtube.com/channel/UCVoeo63MfuTBPXlbj-ldX3Q'; // OFFICIAL GRUP LU 2
@@ -37,8 +37,8 @@ const sellernomor = require("./lib/sellernomor.js");
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:XP Ganss\n' // full name
-            + 'ORG:Owner XPTN Bot;\n' // the organization of the contact
+            + 'FN:Ribas Ganss\n' // full name
+            + 'ORG:Owner RBSBOT Bot;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=6282193030283:+62 821-9303-0283\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 //
